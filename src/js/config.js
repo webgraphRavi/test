@@ -1,5 +1,5 @@
 const stunUrl = "stun:stun.l.google.com:19302", //STUN URL
-  turnUrl = "turn:yourdomain.com", //TURN URL
+  turnUrl = "turn:170.64.182.51", //TURN URL
   turnUsername = "username", //TURN username
   turnPassword = "password"; //TURN password
 
@@ -11,7 +11,7 @@ if (
 ) {
   signalingURL = "http://localhost:9000"; //local signaling server URL
 } else {
-  signalingURL = "https://yourdomain.com:9000"; //production signaling server URL
+  signalingURL = "http://170.64.182.51:9000"; //production signaling server URL
 }
 
 export { signalingURL, stunUrl, turnPassword, turnUrl, turnUsername };
